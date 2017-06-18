@@ -1,0 +1,40 @@
+nav{
+	background:rgba(41, 128, 185,1.0)
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	nav{
+		width: 80px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	nav{
+		width: 80px;
+	}
+}

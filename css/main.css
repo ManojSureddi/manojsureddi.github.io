@@ -11,8 +11,9 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+
 }
 
 
@@ -179,146 +180,34 @@ p {
   display: table;
   clear: both; }
 
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?3enkpx');
-  src:  url('../fonts/icomoon.eot?3enkpx#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?3enkpx') format('truetype'),
-    url('../fonts/icomoon.woff?3enkpx') format('woff'),
-    url('../fonts/icomoon.svg?3enkpx#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+
+ .cl-effect-11 a {
+  padding: 10px 0;
+  border-bottom:1px solid #BFBFBF;
+  color: #fff;
+  text-shadow: none;
+} 
+
+.cl-effect-11 a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 10px 0;
+  max-width: 0;
+  color: #F9BF3B;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.hi-icon {
-	font-size: 0px;
-	cursor: pointer;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-  margin: 20px 15px 0px 15px;
-	position: relative;
-  border-radius: 50%;
-	z-index: 1;
-	color: rgb(34, 49, 63);
+.cl-effect-11 a:hover::before,
+.cl-effect-11 a:focus::before {
+  max-width: 100%;
 }
 
-.hi-icon:after {
-	pointer-events: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	content: '';
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-}
-
-.hi-icon:before {
-	font-family: 'icomoon';
-	speak: none;
-	font-size: 25px;
-	line-height: 54px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-  border-radius: 50%;
-	display: block;
-	-webkit-font-smoothing: antialiased;
-}
-.icon-library:before {
-  content: "\e921";
-}
-.icon-profile:before {
-  content: "\e923";
-}
-.icon-facebook2:before {
-  content: "\ea91";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-linkedin:before {
-  content: "\eac9";
-}
-
-/* Effect 5 */
-.hi-icon-effect-5 .hi-icon {
-	/*box-shadow: 0 0 0 4px rgba(34, 49, 63,.5);*/
-	overflow: hidden;
-	-webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-	-moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-}
-
-.hi-icon-effect-5 .hi-icon:after {
-	display: none;
-}
-
-.hi-icon-effect-5 .hi-icon:hover {
-	color: rgba(236, 240, 241,1.0);
-	color: #702fa8;
-	box-shadow: 0 0 0 8px rgba(236, 240, 241,0.3);
-}
-
-.hi-icon-effect-5a .hi-icon:hover:before {
-      color: rgba(236, 240, 241,1);
-        -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-  -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-	-webkit-animation: toRightFromLeft 0.3s forwards;
-	-moz-animation: toRightFromLeft 0.3s forwards;
-	animation: toRightFromLeft 0.3s forwards;
-}
-
-@-webkit-keyframes toRightFromLeft {
-	49% {
-		-webkit-transform: translate(100%);
-	}
-	50% {
-		opacity: 0;
-		-webkit-transform: translate(-100%);
-	}
-	51% {
-		opacity: 1;
-	}
-}
-@-moz-keyframes toRightFromLeft {
-	49% {
-		-moz-transform: translate(100%);
-	}
-	50% {
-		opacity: 0;
-		-moz-transform: translate(-100%);
-	}
-	51% {
-		opacity: 1;
-	}
-}
-@keyframes toRightFromLeft {
-	49% {
-		transform: translate(100%);
-	}
-	50% {
-		opacity: 0;
-		transform: translate(-100%);
-	}
-	51% {
-		opacity: 1;
-	}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }

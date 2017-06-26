@@ -30,5 +30,5 @@ const constants = {
 
         }
     },
-    divs:["home","about","skills","experience"]
+    divs:["home","about","skills","experience","education","portfolio"]
 }

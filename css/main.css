@@ -404,6 +404,9 @@ color:#000;
 .margin-top-0{
         margin-top: 0;
 }
+.margin-bottom-0{
+        margin-bottom: 0;
+}
 .margin-top-10{
   margin-top: 10px;
 }
@@ -418,4 +421,7 @@ color:#000;
 }
 .dark-bg{
       background-color: #f7f7f7;
+}
+.color-grey{
+  color:#999;
 }

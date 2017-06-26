@@ -73,7 +73,6 @@ nav a:focus {
 	height:100%;
 	float: left;
 	width: 804px;
-	border:1px solid #000;
 	overflow-y: auto;
 	padding: 20px 20px;
 }
@@ -246,9 +245,47 @@ transition: font-size .2s ease-in;
 .projects li:first-child{
 	font-weight: 500;
 }
+.edu{
+	    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+.edu .left{
+    width: 20%;
+    float: left;
+    font-size: 7rem;
+	color:#F4B350;
+	-webkit-transition: font-size .2s ease-in;
+-moz-transition: font-size .2s ease-in;
+transition: font-size .2s ease-in;
+}
+.edu:hover .left{
+font-size: 8rem;
+color:#000;
+-webkit-transition: font-size .2s ease-in;
+-moz-transition: font-size .2s ease-in;
+transition: font-size .2s ease-in;
+}
+.edu .right{
+    float: left;
+	font-weight: 300;
+	width:80%;
+}
+.edu .right .university,.edu .right .course,.edu .right .year{
+    font-size: 18px;
+}
 
+.edu .right .stream{
+    font-size: 25px;
+		font-weight: 100;
 
-
+}
+ .research{
+	font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+	text-transform: uppercase;
+}
 /* Larger than mobile */
 @media (min-width: 400px) {
 	.skill{

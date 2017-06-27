@@ -1,15 +1,16 @@
 aside{
-	background:rgba(0,0,0,1.0);
+	background:rgba(34, 49, 63,1.0);
 	position: fixed;
 	z-index: 100;
 }
 .logo{
-	background: #F4B350;
+	background: #F5AB35;
 	width: 80%;
-	margin: 70px auto;
+	margin: 40px auto;
 	height: 120px;
 	font-family: 'Lato', sans-serif;
 	overflow: hidden;
+	color:rgb(34, 49, 63)
 	}
 
 .logo .name{
@@ -81,6 +82,7 @@ nav a:focus {
 	font-family: 'Oswald', sans-serif;
     font-weight: 400;
 	text-transform: uppercase;
+	color:rgb(34, 49, 63)
 }
 .underline{
 	background: #F4B350;
@@ -96,10 +98,10 @@ nav a:focus {
 }
 
 .intro{
-	background: rgba(0,0,0,.7);
+	background: rgba(34, 49, 63,.8);
 	padding: 20px;
 	color:#f7f7f7;
-	width:50%;
+	width:40%;
 }
 .intro h2{
 	border: none;

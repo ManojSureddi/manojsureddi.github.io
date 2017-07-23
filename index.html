@@ -39,7 +39,7 @@
 			<a href="#experience" data-hover="EXPERIENCE">EXPERIENCE</a>
 			<a href="#education" data-hover="EDUCATION">EDUCATION</a>
 			<a href="#portfolio" data-hover="PORTFOLIO">PORTFOLIO</a>
-						<a href="#contact" data-hover="CONTACT">CONTACT</a>
+			<a href="#contact" data-hover="CONTACT">CONTACT</a>
 
 		</nav>
 	</aside>
@@ -357,7 +357,33 @@
 						<div class="right">
 							<h4>King & Jack</h4>
 							<div class="project-description">
-								
+
+							</div>
+							<div class="project-links">
+								<ul>
+									<li>
+
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right">
+							<h4>JavaBox</h4>
+							<div class="project-description">
+
+							</div>
+							<div class="project-links">
+								<ul>
+									<li>
+
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right">
+							<h4>JavaBox</h4>
+							<div class="project-description">
+
 							</div>
 							<div class="project-links">
 								<ul>
@@ -381,6 +407,11 @@
 					</div>
 				</div>
 			</section>
+			<section id="cd-google-map" class="padding-0">
+				<div id="google-container"></div>
+				<div id="cd-zoom-in"></div>
+				<div id="cd-zoom-out"></div>
+			</section>
 		</div>
 	</div>
 </body>
@@ -389,12 +420,13 @@
 <script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
 <script type="text/javascript" src="js/progressbar.min.js"></script>
 <script type="text/javascript" src="js/constants.js"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCceQb1vWR4uZS3MOHOe973vXgtfaNYQTI"></script>
+<script src="js/main.js"></script>
 
 
 <script type="text/javascript">
 	$(function () {
-		var initialiseScroll = () => {
+		const initialiseScroll = () => {
 			if ($(window).width() > 767) {
 				constants.divs.forEach(function (element) {
 					$("#" + element).css("height", $(window).height());
@@ -451,6 +483,8 @@
 			});
 			event.preventDefault();
 		});
+		$("#cd-google-map").off("click");
+
 
 		var jsdoughnut = new ProgressBar.Circle(javascript, constants.doughNutchartOptions);
 		jsdoughnut.text.style.color = '#F4B350';

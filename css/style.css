@@ -407,4 +407,7 @@ transition: font-size .2s ease-in;
 	.intro{
 			margin-top:20%;
 	}
+	#cd-google-map{
+		width: 427px;
+	}
 }

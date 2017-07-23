@@ -13,21 +13,57 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-<section>
-  <nav class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
-      <a href="#home" class="hi-icon icon-library"></a>
-      <a href="#set-5" class="hi-icon icon-profile"></a>
-      <a href="#set-5" class="hi-icon icon-facebook2"></a>
-      <a href="#set-5" class="hi-icon icon-github"></a>
-      <a href="#set-5" class="hi-icon icon-linkedin"></a>
-  </nav>
-</section>
-<section id="home">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCceQb1vWR4uZS3MOHOe973vXgtfaNYQTI"></script>
 
+	</head>
+	
+	<body>
+
+<section id="cd-google-map">
+	<!-- #google-container will contain the map  -->
+	<div id="google-container"></div>
+	<!-- #cd-zoom-in and #zoom-out will be used to create our custom buttons for zooming-in/out -->
+	<div id="cd-zoom-in"></div>
+	<div id="cd-zoom-out"></div>
+	<address>86-90 Paul Street, London, EC2A 4NE</address> 
 </section>
   </body>
+	<script>
+	var latitude = 51.5255069,
+		longitude = -0.0836207,
+		map_zoom = 14,
+main_color = '#2d313f',
+	saturation_value= -20,
+	brightness_value= 5;
+		//google map custom marker icon - .png fallback for IE11
+		var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+		var marker_url = ( is_internetExplorer11 ) ? 'img/cd-icon-location.png' : 'img/cd-icon-location.svg';
+
+var style= [ 
+	{
+		//don't show highways lables on the map
+        featureType: 'road.highway',
+        elementType: 'labels',
+        stylers: [
+            {visibility: "off"}
+        ]
+    }, 
+	{
+		//set highway colors/brightness/saturation
+		featureType: "road.highway",
+		elementType: "geometry.fill",
+		stylers: [
+			{ hue: main_color },
+			{ visibility: "on" }, 
+			{ lightness: brightness_value }, 
+			{ saturation: saturation_value }
+		]
+	}, 
+	
+	// other elements style here
+];
+
+	</script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/mwheelIntent.js"></script>

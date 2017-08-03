@@ -20,6 +20,10 @@ aside {
 	padding: 20px 20px 5px 20px;
 }
 
+.background-square {
+	border: 1px solid rgb(211, 104, 104);
+}
+
 .lastname {
 	margin-top: -15px;
 }
@@ -331,6 +335,20 @@ nav a:focus {
 	text-transform: uppercase;
 }
 
+.portfolio-card {
+	margin-bottom: 30px;
+}
+
+.background-square {
+	border: 5px solid rgb(211, 104, 104);
+	height: 210px;
+	position: absolute;
+	width: 164px;
+	z-index: 0;
+}
+.name-details{
+	position: relative;
+}
 
 /* Larger than mobile */
 

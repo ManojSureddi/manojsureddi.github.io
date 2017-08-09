@@ -412,7 +412,10 @@ nav a:focus {
 	padding:10px;
 	outline: none;
 }
-
+.font-normal{
+	font-size: 14px;
+	font-weight: 300;
+}
 
 /* Larger than mobile */
 

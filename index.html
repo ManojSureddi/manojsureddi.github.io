@@ -522,15 +522,49 @@
 							Lets talk over a coffee
 						</div>
 						<hr>
-						<div>
-							<div class="contact-card">
-								<div class="contact-icon"> 
-									
+						<div class="left-address u-pull-left clearfix">
+							<div class="contact-card clearfix">
+								<div class="contact-icon "> 
+									<i class="icon-location2"> </i>
 								</div>
 								<div class="contact-text">
-									
+									<span>Manoj Sureddi</span><br>
+									10E2, Olympia Opaline,<br>
+									Navalur,<br>
+									Chennai - 603103
 								</div>
 							</div>
+							<div class="contact-card clearfix">
+								<div class="contact-icon "> 
+									<i class="icon-rocket"> </i>
+								</div>
+								<div class="contact-text">
+									<span>Phone</span><br>
+										9790947981
+								</div>
+							</div>
+							<div class="contact-card clearfix">
+								<div class="contact-icon "> 
+									<i class="icon-envelop"> </i>
+								</div>
+								<div class="contact-text">
+									<span>Mail</span><br>
+										manojsureddi@live.com
+								</div>
+							</div>
+						</div>
+						<div class="right-address u-pull-left clearfix">
+							<div class="contact-card clearfix">
+								<span class="address-title">I'm also available on Social networks</span>
+								<div class="contact-text">
+									<ul class="">
+										<li><a href="https://github.com/ManojSureddi" target="_blank"><i class="icon-github"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/manoj-sureddi-021a4a48" target="_blank"><i class="icon-linkedin"></i></a></li>
+										<li><a href="https://www.facebook.com/manoj.sureddi" target="_blank"><i class="icon-facebook2"></i></a></li>
+									</ul>
+								</div>
+							</div>
+
 						</div>
 					</div>
 					
@@ -575,19 +609,9 @@
 
 		$('#navigation a').bind('click', function (event) {
 			var $anchor = $(this);
-			/*
-			if you want to use one of the easing effects:
-			$('html, body').stop().animate({
-				scrollLeft: $($anchor.attr('href')).offset().left
-			}, 1500,'easeInOutExpo');
-			*/
 			$('html, body').stop().animate({
 				scrollLeft: $($anchor.attr('href')).position().left
 			}, constants.animation.speed, constants.animation.easing, function () {
-
-				// active class for selected chapter
-				///$articles.removeClass( 'content-active' );
-				//$article.addClass( 'content-active' );					
 
 			});
 			event.preventDefault();
@@ -596,20 +620,10 @@
 
 		$('.scrolling-container section').bind('click', function (event) {
 			var $anchor = $(this);
-			/*
-			if you want to use one of the easing effects:
-			$('html, body').stop().animate({
-				scrollLeft: $($anchor.attr('href')).offset().left
-			}, 1500,'easeInOutExpo');
-			*/
+
 			$('html, body').stop().animate({
 				scrollLeft: $anchor.position().left
 			}, constants.animation.speed, constants.animation.easing, function () {
-
-				// active class for selected chapter
-				///$articles.removeClass( 'content-active' );
-				//$article.addClass( 'content-active' );
-
 
 			});
 			event.preventDefault();

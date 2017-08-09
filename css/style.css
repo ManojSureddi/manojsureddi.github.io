@@ -346,13 +346,73 @@ nav a:focus {
 	width: 164px;
 	z-index: 0;
 }
-.name-details{
+
+.name-details {
 	position: relative;
 }
-.contact-card{
+
+.left-address {
 	width: 50%;
 	padding: 10px;
 }
+
+.right-address {
+	width: 50%;
+	padding: 10px;
+}
+
+.contact-card {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+
+}
+
+.contact-card .contact-icon {
+	width: 20%;
+	float: left;
+	font-size: 4rem;
+	color: #F4B350;
+	-webkit-transition: font-size .2s ease-in;
+	-moz-transition: font-size .2s ease-in;
+	transition: font-size .2s ease-in;
+}
+
+.contact-card .contact-text {
+	float: left;
+	width: 80%;
+	font-weight: 300;
+}
+
+.contact-card .contact-text span {
+	float: left;
+	width: 80%;
+	font-weight: 500;
+}
+
+.contact-card .contact-text ul {
+	list-style: none;
+}
+
+.contact-card .contact-text a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+}
+.contact-card .contact-text a:hover {
+
+	color: #000;
+
+}
+.contact-card .contact-text ul li {
+	display: inline-block;
+	margin-right: 20px;
+	padding:10px;
+	outline: none;
+}
+
 
 /* Larger than mobile */
 

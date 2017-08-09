@@ -349,6 +349,10 @@ nav a:focus {
 .name-details{
 	position: relative;
 }
+.contact-card{
+	width: 50%;
+	padding: 10px;
+}
 
 /* Larger than mobile */
 

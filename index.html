@@ -32,12 +32,6 @@
 
 			<div class="symbol">ms</div>
 		</div>
-		<div class="u-pull-right">
-			<input type="checkbox" id="nav-toggle"/>
-			<label for="nav-toggle">
-				<i class=""></i>
-			</label>
-		</div>
 		<nav id="navigation" class="cl-effect-11" role="navigation">
 			<a href="#home" data-hover="HOME">HOME</a>
 			<a href="#about" data-hover="ABOUT">ABOUT</a>
@@ -46,9 +40,9 @@
 			<a href="#education" data-hover="EDUCATION">EDUCATION</a>
 			<a href="#portfolio" data-hover="PORTFOLIO">PORTFOLIO</a>
 			<a href="#contact" data-hover="CONTACT">CONTACT</a>
+
 		</nav>
 	</aside>
-	
 	<div class="scrolling-container">
 		<div class="content-wrapper">
 			<section id="home">
@@ -604,11 +598,6 @@
 
 			}
 		}
-
-		$("#nav-toggle").on("click",()=>{
-			$("#navigation").toggleClass("nav-collapse");
-			$(".nav-collapse").css("height",$(window).height())
-		})
 
 		$(".contact-card .contact-text a").on("click", function(){
 			var win = window.open($(this).attr("href"), '_blank');

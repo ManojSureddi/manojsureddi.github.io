@@ -6,6 +6,9 @@ aside {
 
 .logo {
 	background: #F5AB35;
+	width: 80%;
+	margin: 40px auto;
+	height: 120px;
 	font-family: 'Lato', sans-serif;
 	overflow: hidden;
 	color: rgb(34, 49, 63)
@@ -409,55 +412,14 @@ nav a:focus {
 	padding:10px;
 	outline: none;
 }
-.font-normal{	
+.font-normal{
 	font-size: 14px;
 	font-weight: 300;
 }
-#nav-toggle{
-}
-.nav-collapse{
-	overflow:hidden;
-	position: absolute;
-	left: 0px;
-	-webkit-transition: left .2s ease-in;
-	-moz-transition: left .2s ease-in;
-	transition: left .2s ease-in;
-	background: #fff;
-	border-right: 2px solid  rgba(34, 49, 63, 1.0)
-}
-.nav-collapse a{
-	color: #000;
-}
+
 /* Larger than mobile */
 
 @media (min-width: 400px) {
-	aside {
-		left: 0px;
-		top: 0px;
-		height: 60px;
-		width: 100%;
-	}
-	nav {
-		position: absolute;
-		left: -240px;
-		width: 30%;
-		-webkit-transition: left .2s ease-in;
-		-moz-transition: left .2s ease-in;
-		transition: left .2s ease-in;
-		padding: 20px;
-		
-	}
-	.logo{
-		width: 50px;
-		margin: 15px 15px;
-		height: 40px;
-	}
-	.logo .name{
-		display: none;
-	}
-	.logo .symbol{
-		margin-top: -15px;
-	}
 	.skill {
 		width: 100%;
 	}
@@ -474,22 +436,12 @@ nav a:focus {
 	.project-description {
 		width: 40%;
 	}
-	
 }
 
 
 /* Larger than phablet (also point when grid becomes active) */
 
 @media (min-width: 550px) {
-	aside {
-		left: 0px;
-		top: 0px;
-		height: 60px;
-		width: 100%;
-	}
-	nav {
-		width: 50%;
-	}
 	.skill {
 		width: 100%;
 	}
@@ -516,15 +468,6 @@ nav a:focus {
 /* Larger than tablet */
 
 @media (min-width: 750px) {
-	aside {
-		left: 0px;
-		top: 0px;
-		height: 60px;
-		width: 100%;
-	}
-	nav {
-		width: 50%;
-	}
 	.skill {
 		width: 50%;
 	}
@@ -592,17 +535,6 @@ nav a:focus {
 	nav {
 		width: 60%;
 		margin: 0 auto;
-	}
-	.logo{
-		width: 80%;
-		margin: 40px auto;
-		height: 120px;
-	}
-	.logo .symbol{
-		margin-top: -25px;
-	}
-	.logo .name{
-		display: block;
 	}
 	.inner {
 		padding: 40px 50px;

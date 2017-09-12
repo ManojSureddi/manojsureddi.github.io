@@ -292,9 +292,6 @@ color:#000;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-three-bars:before {
-  content: "\e900";
-}
 .icon-pencil2:before {
   content: "\e906";
 }
@@ -307,17 +304,14 @@ color:#000;
 .icon-profile:before {
   content: "\e923";
 }
-.icon-file-text2:before {
-  content: "\e926";
-}
-.icon-stack:before {
-  content: "\e92e";
-}
 .icon-price-tag:before {
   content: "\e935";
 }
-.icon-phone:before {
-  content: "\e942";
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location2:before {
+  content: "\e948";
 }
 .icon-stopwatch:before {
   content: "\e952";
@@ -331,44 +325,17 @@ color:#000;
 .icon-database:before {
   content: "\e964";
 }
-.icon-bubbles2:before {
-  content: "\e96d";
-}
-.icon-bubbles3:before {
-  content: "\e96f";
-}
-.icon-bubbles4:before {
-  content: "\e970";
-}
 .icon-user:before {
   content: "\e971";
 }
-.icon-quotes-left:before {
-  content: "\e977";
-}
-.icon-quotes-right:before {
-  content: "\e978";
-}
-.icon-hour-glass:before {
-  content: "\e979";
-}
-.icon-key:before {
-  content: "\e98d";
+.icon-spinner4:before {
+  content: "\e97d";
 }
 .icon-wrench:before {
   content: "\e991";
 }
 .icon-cog:before {
   content: "\e994";
-}
-.icon-stats-dots:before {
-  content: "\e99b";
-}
-.icon-trophy:before {
-  content: "\e99e";
-}
-.icon-leaf:before {
-  content: "\e9a4";
 }
 .icon-rocket:before {
   content: "\e9a5";
@@ -379,140 +346,35 @@ color:#000;
 .icon-magnet:before {
   content: "\e9ab";
 }
-.icon-bin:before {
-  content: "\e9ac";
-}
-.icon-bin2:before {
-  content: "\e9ad";
-}
-.icon-target:before {
-  content: "\e9b3";
-}
-.icon-shield:before {
-  content: "\e9b4";
-}
-.icon-power-cord:before {
-  content: "\e9b7";
-}
 .icon-tree:before {
   content: "\e9bc";
 }
-.icon-menu:before {
-  content: "\e9bd";
-}
-.icon-cloud:before {
-  content: "\e9c1";
-}
-.icon-cloud-download:before {
-  content: "\e9c2";
+.icon-download3:before {
+  content: "\e9c7";
 }
 .icon-link:before {
   content: "\e9cb";
 }
-.icon-attachment:before {
-  content: "\e9cd";
-}
-.icon-bookmark:before {
-  content: "\e9d2";
-}
-.icon-star-empty:before {
-  content: "\e9d7";
-}
-.icon-star-half:before {
-  content: "\e9d8";
-}
-.icon-star-full:before {
-  content: "\e9d9";
-}
-.icon-cancel-circle:before {
-  content: "\ea0d";
-}
-.icon-cross:before {
-  content: "\ea0f";
+.icon-eye:before {
+  content: "\e9ce";
 }
 .icon-checkmark:before {
   content: "\ea10";
 }
-.icon-checkmark2:before {
-  content: "\ea11";
-}
-.icon-play2:before {
-  content: "\ea15";
-}
-.icon-pause:before {
-  content: "\ea16";
-}
-.icon-stop:before {
-  content: "\ea17";
-}
-.icon-play3:before {
-  content: "\ea1c";
-}
-.icon-pause2:before {
-  content: "\ea1d";
-}
-.icon-stop2:before {
-  content: "\ea1e";
-}
-.icon-circle-up:before {
-  content: "\ea41";
-}
 .icon-circle-right:before {
   content: "\ea42";
-}
-.icon-circle-down:before {
-  content: "\ea43";
 }
 .icon-circle-left:before {
   content: "\ea44";
 }
-.icon-checkbox-checked:before {
-  content: "\ea52";
-}
-.icon-paragraph-justify:before {
-  content: "\ea7a";
-}
-.icon-embed:before {
-  content: "\ea7f";
-}
 .icon-embed2:before {
   content: "\ea80";
-}
-.icon-share2:before {
-  content: "\ea82";
-}
-.icon-mail:before {
-  content: "\ea83";
-}
-.icon-mail2:before {
-  content: "\ea84";
-}
-.icon-mail4:before {
-  content: "\ea86";
-}
-.icon-google-plus2:before {
-  content: "\ea8c";
 }
 .icon-facebook2:before {
   content: "\ea91";
 }
-.icon-whatsapp:before {
-  content: "\ea93";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-rss:before {
-  content: "\ea9b";
-}
-.icon-steam:before {
-  content: "\eaac";
-}
 .icon-steam2:before {
   content: "\eaad";
-}
-.icon-dropbox:before {
-  content: "\eaae";
 }
 .icon-github:before {
   content: "\eab0";
@@ -526,38 +388,8 @@ color:#000;
 .icon-windows8:before {
   content: "\eac2";
 }
-.icon-skype:before {
-  content: "\eac5";
-}
 .icon-linkedin:before {
   content: "\eac9";
-}
-.icon-html-five:before {
-  content: "\eae4";
-}
-.icon-css3:before {
-  content: "\eae6";
-}
-.icon-code-fork:before {
-  content: "\e908";
-}
-.icon-bars:before {
-  content: "\e901";
-}
-.icon-trash-can:before {
-  content: "\e902";
-}
-.icon-document-code:before {
-  content: "\e909";
-}
-.icon-award:before {
-  content: "\e903";
-}
-.icon-award2:before {
-  content: "\e904";
-}
-.icon-award3:before {
-  content: "\e905";
 }
 
 .margin-0{

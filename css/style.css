@@ -1,574 +1,572 @@
 aside {
-	background: rgba(34, 49, 63, 1.0);
-	position: fixed;
-	z-index: 100;
+  background: rgba(34, 49, 63, 1);
+  position: fixed;
+  z-index: 100;
 }
 
 .logo {
-	background: #F5AB35;
-	width: 80%;
-	margin: 40px auto;
-	height: 120px;
-	font-family: 'Lato', sans-serif;
-	overflow: hidden;
-	color: rgb(34, 49, 63)
+  background: #f5ab35;
+  width: 80%;
+  margin: 40px auto;
+  height: 120px;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  color: rgb(34, 49, 63);
 }
 
 .logo .name {
-	font-weight: 600;
-	font-size: 1.7em;
-	padding: 20px 20px 5px 20px;
+  font-weight: 600;
+  font-size: 1.7em;
+  padding: 20px 20px 5px 20px;
 }
 
 .background-square {
-	border: 1px solid rgb(211, 104, 104);
+  border: 1px solid rgb(211, 104, 104);
 }
 
 .lastname {
-	margin-top: -15px;
+  margin-top: -15px;
 }
 
 .color-yellow {
-	color: #F4B350;
+  color: #f4b350;
 }
 
 .logo .symbol {
-	font-weight: 900;
-	font-size: 48px;
-	float: right;
-	margin-bottom: 0px;
-	margin-right: -5px;
-	margin-top: -25px;
+  font-weight: 900;
+  font-size: 48px;
+  float: right;
+  margin-bottom: 0px;
+  margin-right: -5px;
+  margin-top: -25px;
 }
 
 #mCSB_1_scrollbar_vertical {
-	opacity: .2!important;
+  opacity: 0.2 !important;
 }
 
 nav a {
-	position: relative;
-	display: inline-block;
-	outline: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 100;
-	font-size: 14px;
-	display: block;
-	width: 100%;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  display: block;
+  width: 100%;
 }
 
 nav a:hover,
 nav a:focus {
-	outline: none;
-	cursor: pointer;
+  outline: none;
+  cursor: pointer;
 }
 
 .doughnut-container {
-	width: 50%;
-	padding: 10px;
-	float: left;
+  width: 50%;
+  padding: 10px;
+  float: left;
 }
 
 .scrolling-container {
-	height: 100%;
-	position: absolute;
-	left: 200px;
-	right: 0;
+  height: 100%;
+  position: absolute;
+  left: 200px;
+  right: 0;
 }
 
 .content-wrapper {
-	overflow: hidden;
-	position: absolute;
-	width: 7500px;
+  overflow: hidden;
+  position: absolute;
+  width: 7500px;
 }
 
 .content-wrapper section {
-	height: 100%;
-	float: left;
-	width: 804px;
-	overflow-y: auto;
-	padding: 20px 20px;
+  height: 100%;
+  float: left;
+  width: 804px;
+  overflow-y: auto;
+  padding: 20px 20px;
 }
 
 .heading {
-	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: rgb(34, 49, 63)
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(34, 49, 63);
 }
 
 .underline {
-	background: #F4B350;
-	height: 5px;
-	border-radius: 10px;
-	width: 85px;
-	margin-bottom: 50px;
+  background: #f4b350;
+  height: 5px;
+  border-radius: 10px;
+  width: 85px;
+  margin-bottom: 50px;
 }
 
 #home {
-	background: url("../images/me.JPG");
+  background: url("../images/me.JPG");
 }
 
 .intro {
-	background: rgba(34, 49, 63, .8);
-	padding: 20px;
-	color: #f7f7f7;
-	width: 40%;
+  background: rgba(34, 49, 63, 0.8);
+  padding: 20px;
+  color: #f7f7f7;
+  width: 40%;
 }
 
 .intro h2 {
-	border: none;
-	color: #FFF;
-	text-transform: uppercase;
-	line-height: 50px;
-	padding-bottom: 0;
-	font-size: 45px;
-	font-weight: 400;
-	margin-bottom: 35px;
-	font-family: 'Oswald', sans-serif;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 50px;
+  padding-bottom: 0;
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  font-family: "Oswald", sans-serif;
 }
 
 .intro span {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 .intro p {
-	border-top: 1px solid #888;
-	border-bottom: 1px solid #888;
-	font-weight: 100;
-	padding: 10px 0;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  font-weight: 100;
+  padding: 10px 0;
 }
 
 .details {
-	font-weight: 400;
-	list-style-type: none;
+  font-weight: 400;
+  list-style-type: none;
 }
 
 .details li {
-	font-size: 14px;
-	color: #666;
-	font-weight: 400;
-	line-height: 22px;
-	padding: 12px 0px;
-	border-bottom: 1px solid #cacaca;
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 12px 0px;
+  border-bottom: 1px solid #cacaca;
 }
 
 .summary {
-	font-weight: 400;
-	list-style-type: none;
-	margin-top: 40px;
+  font-weight: 400;
+  list-style-type: none;
+  margin-top: 40px;
 }
 
 .summary i {
-	border-left: 5px solid #F4B350;
-	margin-right: 10px;
+  border-left: 5px solid #f4b350;
+  margin-right: 10px;
 }
 
 .summary .head {
-	font-size: 18px;
-	padding: 15px 0;
-	border-bottom: 1px solid #F4B350;
-	font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #f4b350;
+  font-family: "Oswald", sans-serif;
 }
 
 .doughnut-container .left {
-	width: 50%;
-	float: left;
-	padding: 20px 0px;
-	font-family: 'Oswald', sans-serif;
-	font-size: 3rem;
-	-webkit-transition: font-size .2s ease-in;
-	-moz-transition: font-size .2s ease-in;
-	transition: font-size .2s ease-in;
+  width: 50%;
+  float: left;
+  padding: 20px 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  -webkit-transition: font-size 0.2s ease-in;
+  -moz-transition: font-size 0.2s ease-in;
+  transition: font-size 0.2s ease-in;
 }
 
 .doughnut-container .right {
-	width: 49%;
-	float: left;
-	font-family: 'Oswald', sans-serif;
-	padding: 20px;
-	text-transform: uppercase;
+  width: 49%;
+  float: left;
+  font-family: "Oswald", sans-serif;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
 .techname {
-	font-weight: 100;
-	font-size: 3rem;
-	text-transform: uppercase;
+  font-weight: 100;
+  font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .proficiency {
-	color: #999;
-	font-weight: 100;
-	font-size: 1.2rem;
+  color: #999;
+  font-weight: 100;
+  font-size: 1.2rem;
 }
 
 .doughnut-container:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .text-align-left {
-	text-align: left!important
+  text-align: left !important;
 }
 
 .skill-doughnut {
-	color: #F4B350;
+  color: #f4b350;
 }
 
 .doughnut-container:hover .progressbar-text {
-	font-size: 5rem !important;
-	-webkit-transition: font-size .2s ease-in;
-	-moz-transition: font-size .2s ease-in;
-	transition: font-size .2s ease-in;
-	color: #333!important;
+  font-size: 5rem !important;
+  -webkit-transition: font-size 0.2s ease-in;
+  -moz-transition: font-size 0.2s ease-in;
+  transition: font-size 0.2s ease-in;
+  color: #333 !important;
 }
 
 .sub-headings {
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	color: #333;
-	font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #333;
+  font-weight: 400;
 }
 
 .skill {
-	float: left;
-	font-weight: 300;
+  float: left;
+  font-weight: 300;
 }
 
 .skill-container {
-	padding: 20px;
+  padding: 20px;
 }
 
 .ex-logo {
-	float: left;
-	width: 30px;
-	height: 30px;
+  float: left;
+  width: 30px;
+  height: 30px;
 }
 
 .ex-title {
-	float: left;
-	width: 79%;
-	padding: 0 0 0 10px;
+  float: left;
+  width: 79%;
+  padding: 0 0 0 10px;
 }
 
+.nutanix {
+  background: url(../images/nutanix.png) no-repeat;
+  background-size: contain;
+  margin-top: 5px;
+}
 .adp {
-	background: url("../images/adp.png");
-	background-size: contain;
+  background: url("../images/adp.png");
+  background-size: contain;
 }
 
 .tcs {
-	background: url("../images/tcs.png") center;
-	background-size: cover;
+  background: url("../images/tcs.png") center;
+  background-size: cover;
 }
 
 .is {
-	background: url("../images/is.png");
-	background-size: contain;
+  background: url("../images/is.png");
+  background-size: contain;
 }
 
 .project-title {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .project-description {
-	position: relative;
-	color: #666;
-	font-weight: 200;
+  position: relative;
+  color: #666;
+  font-weight: 200;
 }
 
 .project-highlighter {
-	position: relative;
-	height: 2px;
-	width: 25px;
-	background: #F5AB35;
-	border-radius: 5px;
+  position: relative;
+  height: 2px;
+  width: 25px;
+  background: #f5ab35;
+  border-radius: 5px;
 }
 
 .edu {
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	color: #333;
-	min-height: 130px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #333;
+  min-height: 130px;
 }
 
 .edu .left {
-	width: 20%;
-	float: left;
-	font-size: 7rem;
-	color: #F4B350;
-	-webkit-transition: font-size .2s ease-in;
-	-moz-transition: font-size .2s ease-in;
-	transition: font-size .2s ease-in;
+  width: 20%;
+  float: left;
+  font-size: 7rem;
+  color: #f4b350;
+  -webkit-transition: font-size 0.2s ease-in;
+  -moz-transition: font-size 0.2s ease-in;
+  transition: font-size 0.2s ease-in;
 }
 
 .edu:hover .left {
-	font-size: 8rem;
-	color: #000;
-	-webkit-transition: font-size .2s ease-in;
-	-moz-transition: font-size .2s ease-in;
-	transition: font-size .2s ease-in;
+  font-size: 8rem;
+  color: #000;
+  -webkit-transition: font-size 0.2s ease-in;
+  -moz-transition: font-size 0.2s ease-in;
+  transition: font-size 0.2s ease-in;
 }
 
 .edu .right {
-	float: left;
-	font-weight: 300;
-	width: 80%;
+  float: left;
+  font-weight: 300;
+  width: 80%;
 }
 
 .edu .right .university,
 .edu .right .course,
 .edu .right .year {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .edu .right .stream {
-	font-size: 25px;
-	font-weight: 100;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .research {
-	font-size: 25px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .portfolio-card {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .background-square {
-	border: 5px solid rgb(211, 104, 104);
-	height: 210px;
-	position: absolute;
-	width: 164px;
-	z-index: 0;
+  border: 5px solid rgb(211, 104, 104);
+  height: 210px;
+  position: absolute;
+  width: 164px;
+  z-index: 0;
 }
 
 .name-details {
-	position: relative;
+  position: relative;
 }
 
 .left-address {
-	width: 50%;
-	padding: 10px;
+  width: 50%;
+  padding: 10px;
 }
 
 .right-address {
-	width: 50%;
-	padding: 10px;
+  width: 50%;
+  padding: 10px;
 }
 
 .contact-card {
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	color: #333;
-
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #333;
 }
 
 .contact-card .contact-icon {
-	width: 20%;
-	float: left;
-	font-size: 4rem;
-	color: #F4B350;
-	-webkit-transition: font-size .2s ease-in;
-	-moz-transition: font-size .2s ease-in;
-	transition: font-size .2s ease-in;
+  width: 20%;
+  float: left;
+  font-size: 4rem;
+  color: #f4b350;
+  -webkit-transition: font-size 0.2s ease-in;
+  -moz-transition: font-size 0.2s ease-in;
+  transition: font-size 0.2s ease-in;
 }
 
 .contact-card .contact-text {
-	float: left;
-	width: 80%;
-	font-weight: 300;
+  float: left;
+  width: 80%;
+  font-weight: 300;
 }
 
 .contact-card .contact-text span {
-	float: left;
-	width: 80%;
-	font-weight: 500;
+  float: left;
+  width: 80%;
+  font-weight: 500;
 }
 
 .contact-card .contact-text ul {
-	list-style: none;
+  list-style: none;
 }
 
 .contact-card .contact-text a {
-	display: inline-block;
-	text-decoration: none;
-	color: #000;
-	font-size: 3rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 3rem;
 }
 .contact-card .contact-text a:hover {
-
-	color: #000;
-
+  color: #000;
 }
 .contact-card .contact-text ul li {
-	display: inline-block;
-	margin-right: 20px;
-	padding:10px;
-	outline: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  outline: none;
 }
-.font-normal{
-	font-size: 14px;
-	font-weight: 300;
+.font-normal {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 /* Larger than mobile */
 
 @media (min-width: 400px) {
-	.skill {
-		width: 100%;
-	}
-	.doughnut-container {
-		width: 100%;
-	}
-	.doughnut-container:hover .progressbar-text {
-		font-size: 4rem
-	}
-	.doughnut-container .left {
-		width: 15%;
-		font-size: 2rem;
-	}
-	.project-description {
-		width: 40%;
-	}
+  .skill {
+    width: 100%;
+  }
+  .doughnut-container {
+    width: 100%;
+  }
+  .doughnut-container:hover .progressbar-text {
+    font-size: 4rem;
+  }
+  .doughnut-container .left {
+    width: 15%;
+    font-size: 2rem;
+  }
+  .project-description {
+    width: 40%;
+  }
 }
-
 
 /* Larger than phablet (also point when grid becomes active) */
 
 @media (min-width: 550px) {
-	.skill {
-		width: 100%;
-	}
-	.doughnut-container {
-		width: 100%;
-	}
-	.doughnut-container:hover .progressbar-text {
-		font-size: 4rem
-	}
-	.doughnut-container .left {
-		width: 15%;
-		font-size: 2rem;
-	}
-	.project-description {
-		width: 50%;
-		left: -45px;
-	}
-	.project-highlighter {
-		left: -45px;
-	}
+  .skill {
+    width: 100%;
+  }
+  .doughnut-container {
+    width: 100%;
+  }
+  .doughnut-container:hover .progressbar-text {
+    font-size: 4rem;
+  }
+  .doughnut-container .left {
+    width: 15%;
+    font-size: 2rem;
+  }
+  .project-description {
+    width: 50%;
+    left: -45px;
+  }
+  .project-highlighter {
+    left: -45px;
+  }
 }
-
 
 /* Larger than tablet */
 
 @media (min-width: 750px) {
-	.skill {
-		width: 50%;
-	}
-	.doughnut-container {
-		width: 100%;
-	}
-	.doughnut-container:hover .progressbar-text {
-		font-size: 4rem
-	}
-	.doughnut-container .left {
-		width: 15%;
-		font-size: 2rem;
-	}
-	.project-description {
-		width: 70%;
-		left: -45px;
-	}
-	.project-highlighter {
-		left: -45px;
-	}
+  .skill {
+    width: 50%;
+  }
+  .doughnut-container {
+    width: 100%;
+  }
+  .doughnut-container:hover .progressbar-text {
+    font-size: 4rem;
+  }
+  .doughnut-container .left {
+    width: 15%;
+    font-size: 2rem;
+  }
+  .project-description {
+    width: 70%;
+    left: -45px;
+  }
+  .project-highlighter {
+    left: -45px;
+  }
 }
-
 
 /* Larger than desktop */
 
 @media (min-width: 1000px) {
-	nav {
-		width: 80px;
-	}
-	.skill {
-		width: 33.33%;
-	}
-	.to-right {
-		float: right;
-	}
-	.doughnut-container {
-		width: 50%;
-	}
-	.doughnut-container:hover .progressbar-text {
-		font-size: 5rem
-	}
-	.doughnut-container .left {
-		width: 50%;
-		font-size: 2rem;
-	}
-	.project-description {
-		left: 0;
-		width: 100%;
-	}
-	.project-highlighter {
-		left: 0;
-	}
+  nav {
+    width: 80px;
+  }
+  .skill {
+    width: 33.33%;
+  }
+  .to-right {
+    float: right;
+  }
+  .doughnut-container {
+    width: 50%;
+  }
+  .doughnut-container:hover .progressbar-text {
+    font-size: 5rem;
+  }
+  .doughnut-container .left {
+    width: 50%;
+    font-size: 2rem;
+  }
+  .project-description {
+    left: 0;
+    width: 100%;
+  }
+  .project-highlighter {
+    left: 0;
+  }
 }
-
 
 /* Larger than Desktop HD */
 
 @media (min-width: 1200px) {
-	aside {
-		left: 0px;
-		top: 0px;
-		height: 100%;
-		width: 200px;
-	}
-	nav {
-		width: 60%;
-		margin: 0 auto;
-	}
-	.inner {
-		padding: 40px 50px;
-	}
-	#about .inner {
-		width: 80%;
-	}
-	.skill {
-		width: 33.33%;
-	}
-	.to-right {
-		float: right;
-	}
-	.doughnut-container {
-		width: 50%;
-	}
-	.doughnut-container:hover .progressbar-text {
-		font-size: 5rem
-	}
-	.doughnut-container .left {
-		width: 50%;
-		font-size: 3rem;
-	}
-	.intro {
-		margin-top: 20%;
-	}
-	#cd-google-map {
-		width: 427px;
-	}
-	.project-description {
-		left: 0;
-		width: 100%;
-	}
-	.project-highlighter {
-		left: 0;
-	}
+  aside {
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 200px;
+  }
+  nav {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .inner {
+    padding: 40px 50px;
+  }
+  #about .inner {
+    width: 80%;
+  }
+  .skill {
+    width: 33.33%;
+  }
+  .to-right {
+    float: right;
+  }
+  .doughnut-container {
+    width: 50%;
+  }
+  .doughnut-container:hover .progressbar-text {
+    font-size: 5rem;
+  }
+  .doughnut-container .left {
+    width: 50%;
+    font-size: 3rem;
+  }
+  .intro {
+    margin-top: 20%;
+  }
+  #cd-google-map {
+    width: 427px;
+  }
+  .project-description {
+    left: 0;
+    width: 100%;
+  }
+  .project-highlighter {
+    left: 0;
+  }
 }

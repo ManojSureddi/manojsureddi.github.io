@@ -57,7 +57,8 @@
 				<span class="green animated fadeInDown">Hi, I am</span>
 				<h1 class="name animated fadeInDown">Manoj Sureddi.</h1>
 				<h1 class="caption animated fadeInUp">
-					I build things for the web which help companies communicate the real value of their product.
+					I build things for the web which help companies communicate the real value of their product and
+					reach their audience.
 				</h1>
 				<p class="desc animated fadeInUp">
 					I'm a software engineer based in Bengaluru, specializing in designing and building exceptional,
@@ -68,11 +69,11 @@
 				>
 			</div>
 		</section>
-		<section class="row" id="#about" data-aos="fade-right">
-			<div class=" m-container col col-lg-12 padding-top-150">
+		<section id="#about" class="row skewParent light">
+			<div class=" m-container col col-lg-12 padding-top-150 unSkewChild">
 				<h3 class="heading">About me</h3>
 				<div class="row">
-					<div class="col col-lg-8 display-content" data-aos="fade-left">
+					<div class="col col-lg-8 display-content">
 						<ul class="summary">
 							<li>
 								<div class="arrow"></div>
@@ -136,7 +137,10 @@
 						</ul>
 					</div>
 					<div class="col col-lg-4" data-aos="fade-right">
-						<img src="images/me.jpg" />
+						<span class="paper-clip"></span>
+						<div>
+							<img src="images/me.jpg" />
+						</div>
 					</div>
 				</div>
 			</div>
@@ -251,29 +255,131 @@
 		<section class="row" id="#experience">
 			<div class=" m-container col col-lg-12 padding-top-150">
 				<h3 class="heading">Where I've worked</h3>
-				<div class="col  col-lg-12">
+				<div class="col  offset-lg-2 col-lg-10" style="padding-top: 100px;">
 					<div class="row">
 						<div class="leftPanel col col-lg-3">
 							<div class="row">
-								<div class="col col-lg-12 comp-name">Nutanix India</div>
-								<div class="col col-lg-12 comp-name">ADP India</div>
-								<div class="col col-lg-12 comp-name">Tata Consultancy Services</div>
+								<span id="bar" class="leftBar"></span>
+								<div class="col col-lg-12 comp-name" data-index="1">Nutanix India</div>
+								<div class="col col-lg-12 comp-name" data-index="2">ADP India</div>
+								<div class="col col-lg-12 comp-name" data-index="3">Tata Consultancy Services</div>
+								<div class="col col-lg-12 comp-name" data-index="4">Internshala</div>
 							</div>
 						</div>
 						<div class="compDesc col col-lg-9 ">
-							<div>
+							<div id="nutanix" class="job-desc">
 								<div class="role">
-									Member of Technical Staff-4 @Nutanix
+									Member of Technical Staff-4 <span class="company">@Nutanix</span>
 									<div class="date"></div>
 								</div>
 								<ul class="role-summary">
 									<li>
 										<div class="arrow"></div>
-										<div>Kafka</div>
+										<div>
+											Working as a fullstack developer to write modern, performant, maintainable
+											code for a product called CALM
+										</div>
 									</li>
 									<li>
 										<div class="arrow"></div>
-										<div>Mocha</div>
+										<div>
+											Designed and Developed a unique tree drawing algorithm which positions nodes
+											in a space-efficient layout in O(N) complexity which is being processed for
+											patents.
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Developed frameworks for accommodating data models and determining
+											dependencies using graph walking for efficient data handling and improved
+											performance.
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Communicate with multi-disciplinary teams of engineers, designers, product
+											managers to come up with solutions.
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Leading and mentoring a team of junior developers.
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div id="adp" class="job-desc">
+								<div class="role">
+									Application Developer <span class="company">@ADP India</span>
+									<div class="date"></div>
+								</div>
+								<ul class="role-summary">
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Leading a cross-functional team of developers.I've architected, developed,
+											and delivered a metadata-driven UI engine built on React
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>Developed APIs on NodeJS for the platform called LIFION</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Developed multiple solutions to make the platform more performant and easy
+											to use.
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div id="tcs" class="job-desc">
+								<div class="role">
+									Systems Engineer <span class="company">@TCS</span>
+									<div class="date"></div>
+								</div>
+								<ul class="role-summary">
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Worked on developing a comprehensive unified delivery management solution &
+											operations platform empowering entire lifecycle right from the program start
+											up to delivery
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Worked as a fullstack developer in developing frontend in Angular and
+											Backend APIs in Spring framework
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div id="intershala" class="job-desc">
+								<div class="role">
+									Systems Development Intern<span class="company">@Internshala</span>
+									<div class="date"></div>
+								</div>
+								<ul class="role-summary">
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Worked on developing a comprehensive unified delivery management solution &
+											operations platform empowering entire lifecycle right from the program start
+											up to delivery
+										</div>
+									</li>
+									<li>
+										<div class="arrow"></div>
+										<div>
+											Worked as a fullstack developer in developing frontend in Angular and
+											Backend APIs in Spring framework
+										</div>
 									</li>
 								</ul>
 							</div>
@@ -286,8 +392,10 @@
 			<div class=" m-container col col-lg-12 padding-top-150">
 				<h3 class="heading">Things I have built</h3>
 				<div class="col  col-lg-12">
-					<div class="col col-lg-4"></div>
-					<div class="col col-lg-8"></div>
+					<div class="row">
+						<div class="col col-lg-4"></div>
+						<div class="col col-lg-8"></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -295,8 +403,41 @@
 			<a class="details">manojsureddi@live.com</a>
 		</div>
 		<script src="js/aos.js"></script>
+		<script src="js/jquery.js"></script>
+		<script>
+			const tabIds = ['nutanix', 'adp', 'tcs', 'intershala'];
+			$('.comp-name').click(function() {
+				const index = $(this).attr('data-index');
+				const ypos = (parseInt(index) - 1) * 50;
+				console.log(index, ypos);
+				document.getElementById('bar').style.transform = `translate(0, ${ypos}px)`;
+
+				tabIds.forEach((val, idx) => {
+					if (idx === index - 1) {
+						document.getElementById(tabIds[idx]).style.display = 'block';
+					} else {
+						document.getElementById(tabIds[idx]).style.display = 'none';
+					}
+				});
+			});
+
+			document.getElementById('nutanix').style.display = 'block';
+
+			const isInViewport = function(elem) {
+				const bounding = elem.getBoundingClientRect();
+				return (
+					bounding.bottom >= window.innerHeight / 2 &&
+					bounding.top <= (window.innerHeight || document.documentElement.clientHeight)
+				);
+			};
+
+			window.addEventListener('scroll', function(event) {
+				console.log(isInViewport(document.getElementById('#about')));
+			});
+		</script>
 		<script>
 			AOS.init();
 		</script>
 	</body>
 </html>
+`

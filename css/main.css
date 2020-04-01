@@ -13,6 +13,9 @@ body {
     width: 100%;
     overflow-x: hidden;
     counter-reset: section;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 /*rgb(255, 207, 100)*/
@@ -128,11 +131,17 @@ h6 {
     .m-container {
         padding: 100px 100px;
     }
+    .work-cont{
+        margin: 30px 0 0 -50px;
+    }
 }
 
 @media(max-width: 1073px) {
     .m-container {
         padding: 100px 100px;
+    }
+    .work-cont{
+        margin: 30px 0 0 -50px;
     }
 }
 
@@ -140,17 +149,28 @@ h6 {
     .m-container {
         padding: 100px 50px;
     }
+    .work-cont{
+        margin: 30px 0 0 -50px;
+    }
 }
 
 @media(max-width: 555px) {
     .m-container {
         padding: 100px 40px;
     }
+    .work-cont{
+        margin: 0;
+        margin-top: -50px;
+    }
 }
 
 @media(max-width: 480px) {
     .m-container {
         padding: 100px 40px;
+    }
+    .work-cont{
+        margin: 0;
+        margin-top: -50px;
     }
 }
 
@@ -167,6 +187,7 @@ h6 {
     white-space: nowrap;
     font-size: 30px;
     margin: 10px 0px 40px;
+    font-weight: 300;
 }
 
 .heading:before {
@@ -254,6 +275,7 @@ ul {
 .summary {
     width: 90%;
     margin-left: 25px;
+    font-weight: 300;
 }
 
 .summary li {
@@ -287,7 +309,7 @@ ul {
 }
 
 .light {
-    background: #404A57;
+    background: #122d3a;
     padding-bottom: 100px;
 }
 
@@ -387,7 +409,12 @@ ul {
     margin-left: 50px;
 }
 
-img {
+.mypic-container{
+    margin: 50px auto;
+    position: relative;
+}
+
+.mypic {
     width: 300px;
     height: 300px;
     /* min-height: 400px; */
@@ -522,11 +549,59 @@ span.paper-clip {
     border: 2px solid #017faf;
     display: inline-block;
     position: absolute;
-    left: 45px;
+    left: 35px;
     z-index: 2;
     top: -28px;
 }
 
 .job-desc {
     display: none;
+}
+
+.work{
+
+}
+
+.work img{
+    max-width: 700px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.work-cont{
+    padding: 20px;
+    color: #fff;
+    background: #09f;
+    border-radius: 5px;
+    transform: skewX(-25deg);
+}
+
+.work-desc{
+    transform: skewX(25deg);
+}
+
+.ribbon{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 40px;
+    font-size: 1rem;
+    line-height: 2rem;
+    position: relative;
+    transition: 0.5s;
+    width: 300px;
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    right: -60px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
 }
